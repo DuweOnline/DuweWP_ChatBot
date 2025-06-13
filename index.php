@@ -2,13 +2,15 @@
 
 /*
 Plugin Name:  DuweWP ChatBot
-Plugin URI:   https://duwe.co.uk
+Plugin URI:   https://github.com/DuweOnline/DuweWP_ChatBot
 Description:  Adds a configurable "guided tour" ChatBot to a Wordpress site
 Version:      1.0.0
 Author:       Duwe Online
 Author URI:   https://duwe.co.uk
 License:      GPL2
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  duwewp-chatbot
+Domain Path:  /languages
 */
 
 if ( ! defined( 'ABSPATH' ) ) {

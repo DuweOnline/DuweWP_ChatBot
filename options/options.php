@@ -160,7 +160,7 @@ function duwewp_chatbot_options_settings_init() {
 }
 
 function duwewp_initial_section_render() {
-	echo 'Hiiiiii';
+	echo '<p>Create your DuweWP Chatbot posts and connect them up using the "Link to other ChatBot screens" option to link them together.</p><p>Once you have your posts created and linked up, edit the settings on this page and then finally activate "Show DuweWP ChatBot" to show the chatbot icon.</p>';
 }
 
 function duwewp_chatbot_options_field_render() {
