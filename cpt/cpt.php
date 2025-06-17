@@ -39,8 +39,8 @@ function duwe_wp_chatbot()
 		'supports'              => array( 'title' ),
 		'hierarchical'          => true,
 		'public'                => false,
-		'show_ui'               => true,
-		'show_in_menu'          => true,
+		'show_ui'               => current_user_can('manage_options'),
+		'show_in_menu'          => current_user_can('manage_options'),
 		'menu_position'         => 80,
 		'show_in_admin_bar'     => true,
 		'show_in_nav_menus'     => true,
@@ -49,6 +49,7 @@ function duwe_wp_chatbot()
 		'exclude_from_search'   => true,
 		'publicly_queryable'    => false,
 		'capability_type'       => 'post',
+		'map_meta_cap'       	=> true,
 		'show_in_rest'          => true
 	);
 	register_post_type('duwe_wp_chatbot', $args);
